@@ -1,4 +1,4 @@
-# publisher
+# sqs-message-sender
 
 Amazon SQSにメッセージを送るサンプルプログラム
 
@@ -82,7 +82,7 @@ go get github.com/aws/aws-sdk-go
 
 ### 起動と実行
 
-`publisher`ディレクトリに移動し、以下のコマンドで起動します。
+`sqs-message-sender`ディレクトリに移動し、以下のコマンドで起動します。
 ```
 go run main.go
 ```
