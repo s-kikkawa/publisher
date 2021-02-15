@@ -1,8 +1,8 @@
 package main
 
 import (
-    "publisher/database"
-    "publisher/message"
+    "sqs-message-sender/database"
+    "sqs-message-sender/message"
     "strconv"
     "net/http"
     "github.com/gin-gonic/gin"
